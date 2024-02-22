@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+}
+
+.dropbtn {
+   background-color:white;
+    color:black;
+     font-size: 16px;
+    border: none;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display:inline-flex;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 100vw;
+    top: 40px;
+    left:-270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content li:hover {background-color:white;}
+  
+
+  .dropdown:hover .dropdown-content {display: flex;
+    }
+  
+ 
+  .dropdown:hover .dropbtn {text-decoration: underline solid 5px black ; }
+
+  .dropbtn,li{
+    list-style: none;
+  }
+
+.EXPLORE{
+    position: absolute;
+    bottom: 40px; 
+    z-index: 5;
+    left: 45%;
+    color: azure;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+
+.blog .carousel-indicators li {
+    background:white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.text50 > i{
+   font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
